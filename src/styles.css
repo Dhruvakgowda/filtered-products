@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.App {
+  font-family: Poppins;
+  text-align: left;
+
+  max-width: 80%;
+  margin: auto;
+}
+
+table {
+  table-layout: fixed;
+}
+
+div #searchbox,
+#order {
+  margin: 1px;
+}
+#order {
+  border-bottom: 1px solid black;
+}
+#number {
+  color: rgb(6, 146, 146);
+  font-weight: bold;
+}
+#num {
+  background-color: rgb(219, 218, 218);
+  border-radius: 5px;
+  padding: 5px;
+}
+#searchbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  padding: 5px;
+  width: 45%;
+  margin: 1rem;
+  border: 3px solid rgb(183, 205, 219);
+  border-radius: 5px;
+}
+table {
+  margin: auto;
+  border-collapse: collapse;
+  padding: 1rem;
+}
+
+td,
+th {
+  border-bottom: 1px solid grey;
+  padding-left: 0rem;
+  table-layout: fixed;
+  width: 10%;
+}
+
+th {
+  background-color: rgba(200, 220, 255, 255);
+  border-radius: 2px;
+}
+
+.Delivered {
+  color: rgb(0, 89, 255);
+  font-weight: bold;
+  background-color: rgba(193, 217, 239, 255);
+  border: 4px solid rgba(193, 217, 239, 255);
+  text-align: center;
+  border-radius: 20px;
+  max-width: 80%;
+}
+
+.Prepared {
+  color: orange;
+  font-weight: bold;
+  background-color: rgba(254, 247, 235, 255);
+  border: 4px solid rgba(254, 247, 235, 255);
+  text-align: center;
+  border-radius: 20px;
+  max-width: 80%;
+}
+
+.Completed {
+  color: rgb(54, 202, 25);
+  font-weight: bold;
+  background-color: rgba(209, 241, 220, 255);
+  border: 4px solid rgba(209, 241, 220, 255);
+  text-align: center;
+  border-radius: 20px;
+
+  max-width: 80%;
+}
+
+.Prepone {
+  color: purple;
+  font-weight: bold;
+  background-color: rgb(230, 152, 250);
+  border: 4px solid rgb(230, 152, 250);
+  text-align: center;
+  border-radius: 20px;
+  max-width: 80%;
+}
+
+.desc {
+  color: grey;
+}
+
+select {
+  padding: 5px;
+  width: 100px;
+  margin: 1rem;
+  border: 5px solid rgb(209, 212, 214);
+  border-radius: 5px;
+}
+
+select option {
+  padding: 0.5rem;
+}
